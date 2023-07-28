@@ -20,5 +20,15 @@
     Apply: varchar_30 apply_link
     Apply: varchar_30 apply_status
     Apply: varchar_100 memo
+    Apply: Date create_time
+    Apply: Date updated_time
+    Apply: Date|null deleted_time
+
+    Attachment: int id-pk
+    Attachment: varchar_30 title
+    Attachment: varchar_200 link
+    Attachment: Date create_time
+    Attachment: Date updated_time
+    Attachment: Date|null deleted_time
 
 ```
