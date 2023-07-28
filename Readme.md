@@ -1,7 +1,7 @@
 # 단순 express jenkins test 용입니다.
 
 ```mermaid
-classDiagram;
+  classDiagram;
     class GameObject;
         -String Name;
         -int PosX;
