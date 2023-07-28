@@ -4,6 +4,7 @@
   classDiagram
     User <|-- Apply
     User: int id-pk
+    User: varchar(30) user_id
 
     Animal <|-- Duck
     note for Duck "can fly\ncan swim\ncan dive\ncan help in debugging"
