@@ -5,6 +5,8 @@
     ---
     title: Checkkk UML diagram
     ---
+```
+
     <!-- Animal <|-- Duck
     note for Duck "can fly\ncan swim\ncan dive\ncan help in debugging"
     Animal <|-- Fish
@@ -26,5 +28,3 @@
         +bool is_wild
         +run()
     } -->
-
-```
