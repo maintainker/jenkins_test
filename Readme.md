@@ -1,4 +1,6 @@
-# 단순 express jenkins test 용입니다.
+# 백앤드 회의
+
+## DB table UML
 
 ```mermaid
   classDiagram
@@ -39,6 +41,8 @@
     Calendar: Date create_time
     Calendar: Date updated_time
     Calendar: Date|null deleted_time
-
-
 ```
+
+## task 분배
+
+- <span style="color:blue; font-weight: bold;" >후니</span> :
