@@ -1,21 +1,28 @@
 # 단순 express jenkins test 용입니다.
 
 ```mermaid
-  classDiagram;
-    class GameObject;
-        -String Name;
-        -int PosX;
-        -int PosY;
-        +Despawn() void;
-
-
-    class DamageableObject;
-        +int MaxHealth;
-        -int Health;
-        +IsDead() bool;
-        +TakeDamage(int damage) void;
-        +OnKilled() void;
-
-    GameObject <|-- DamageableObject;
+  classDiagram
+    note "From Duck till Zebra"
+    Animal <|-- Duck
+    note for Duck "can fly\ncan swim\ncan dive\ncan help in debugging"
+    Animal <|-- Fish
+    Animal <|-- Zebra
+    Animal : +int age
+    Animal : +String gender
+    Animal: +isMammal()
+    Animal: +mate()
+    class Duck{
+        +String beakColor
+        +swim()
+        +quack()
+    }
+    class Fish{
+        -int sizeInFeet
+        -canEat()
+    }
+    class Zebra{
+        +bool is_wild
+        +run()
+    }
 
 ```
