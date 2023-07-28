@@ -4,6 +4,8 @@
   classDiagram
     User <|-- Apply
     Apply <|-- Attachment
+    Apply <|-- Calendar
+    User <|-- Calendar
 
     User: int id-pk
     User: varchar_30 user_id
@@ -30,5 +32,13 @@
     Attachment: Date create_time
     Attachment: Date updated_time
     Attachment: Date|null deleted_time
+
+    Calendar: int id-pk
+    Calendar: int schedule_date
+    Calendar: varchar_30 status
+    Calendar: Date create_time
+    Calendar: Date updated_time
+    Calendar: Date|null deleted_time
+
 
 ```
