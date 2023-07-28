@@ -5,7 +5,7 @@
     ---
     title: Checkkk UML diagram
     ---
-    User <|-- Apply
+    <!-- User <|-- Apply -->
     class User{
       +int id(pk)
       +varchar(30) user_id
