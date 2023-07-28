@@ -2,6 +2,7 @@
 
 ```mermaid
   classDiagram
+    User <|-- Apply
     Animal <|-- Duck
     note for Duck "can fly\ncan swim\ncan dive\ncan help in debugging"
     Animal <|-- Fish
