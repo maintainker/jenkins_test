@@ -2,19 +2,20 @@
 
 ```mermaid
 classDiagram{
-    class GameObject {
+    class GameObject
         -String Name
         -int PosX
         -int PosY
         +Despawn() void
-    }
-    class DamageableObject {
+
+
+    class DamageableObject
         +int MaxHealth
         -int Health
         +IsDead() bool
         +TakeDamage(int damage) void
         +OnKilled() void
-    }
+
     GameObject <|-- DamageableObject
 }
 ```
