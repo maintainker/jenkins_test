@@ -6,10 +6,14 @@
     title: Checkkk UML diagram
     ---
     User <|-- Apply
-    User : +int id(pk)
-    User : +varchar(30) user_id
+    class User{
+      +int id(pk)
+      +varchar(30) user_id
+    }
 
-
+    class Apply{
+      +int id(pk)
+    }
 
 
     Animal <|-- Duck
