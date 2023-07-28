@@ -5,17 +5,7 @@
     ---
     title: Checkkk UML diagram
     ---
-    class User{
-      +int id(pk)
-      +varchar(30) user_id
-    }
-
-    class Apply{
-      +int id(pk)
-    }
-
-
-    Animal <|-- Duck
+    <!-- Animal <|-- Duck
     note for Duck "can fly\ncan swim\ncan dive\ncan help in debugging"
     Animal <|-- Fish
     Animal <|-- Zebra
@@ -35,6 +25,6 @@
     class Zebra{
         +bool is_wild
         +run()
-    }
+    } -->
 
 ```
