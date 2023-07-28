@@ -5,6 +5,12 @@
     User <|-- Apply
     User: int id-pk
     User: varchar_30 user_id
+    User: varchar_50 password
+    User: varchar_30 nickname
+    User: Date create_time
+    User: Date updated_time
+    User: Date|null deleted_time
+
 
     Animal <|-- Duck
     note for Duck "can fly\ncan swim\ncan dive\ncan help in debugging"
