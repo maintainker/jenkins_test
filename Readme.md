@@ -3,7 +3,7 @@
 ```mermaid
   classDiagram
     User <|-- Apply
-    User: +int id(pk)
+    User: +int id-pk
 
     Animal <|-- Duck
     note for Duck "can fly\ncan swim\ncan dive\ncan help in debugging"
